@@ -14,7 +14,7 @@ Accurate and automated gland segmentation on pathological images can assist path
 - [CRAG](https://warwick.ac.uk/fac/cross_fac/tia/data/mildnet/)
 
 # Run the DCCL_Seg
-python train_DEA.py --alpha=1 --batch-size=8 --lr=0.0005 --epochs=1000 --gpu=1 --save-dir=./experiments/GlaS/newcrop/DEA-Net
+python train.py --alpha=1 --batch-size=8 --lr=0.0005 --epochs=1000 --gpu=1 --save-dir=./experiments/GlaS/newcrop/DEA-Net
 
 # Citation
 If you find this code repository useful, please consider citing our paper:
